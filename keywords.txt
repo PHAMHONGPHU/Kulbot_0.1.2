@@ -1,0 +1,38 @@
+#######################################
+# Syntax Coloring Map KULBOT
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+KULBOT	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+KULBOT_INIT   KEYWORD2
+KULBOT_SENSOR_INIT   KEYWORD2
+KULBOT_GET_SONAR_SENSOR    KEYWORD2
+KULBOT_GET_TEMP_DHT_SENSOR    KEYWORD2
+KULBOT_GET_HUM_DHT_SENSOR     KEYWORD2
+KULBOT_GET_GRYRO_SENSOR	        KEYWORD2
+KULBOT_GET_VOLUME_SENSOR	KEYWORD2
+KULBOT_GET_SOIL_HUM_SENSOR	KEYWORD2
+KULBOT_GET_LIGHT_SENSOR       KEYWORD2
+KULBOT_GET_GAS_SENSOR           KEYWORD2
+KULBOT_GET_JOYSTICK_SENSOR      KEYWORD2
+KULBOT_LCD_INIT                 KEYWORD2
+KULBOT_LCD_PRINT_STRING         KEYWORD2 
+KULBOT_LCD_PRINT_NUMBER         KEYWORD2
+KULBOT_LCD_CLEAR                KEYWORD2
+KULBOT_SERVO_SET_ANGLE          KEYWORD2
+KULBOT_MOVE_SERVO               KEYWORD2
+KULBOT_SERVO_INIT               KEYWORD2
+KULBOT_MOTORENCODER_INIT        KEYWORD2
+KULBOT_MOTORENCODER_RUN1        KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
