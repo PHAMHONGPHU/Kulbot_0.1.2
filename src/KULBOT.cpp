@@ -148,9 +148,10 @@ void KULBOT::KULBOT_INIT(void)
    pinMode(CONTROL_POWER,OUTPUT);
    digitalWrite(CONTROL_POWER,HIGH);
    pinMode(INPUT_BUTTON_POWER, INPUT);
+  delay(1000);
    attachInterrupt(digitalPinToInterrupt(INPUT_BUTTON_POWER), toggleLED,RISING);
-   pinMode(LED_GREEN_POWER,OUTPUT);
-   pinMode(LED_RED_POWER,OUTPUT);
+   //pinMode(LED_GREEN_POWER,OUTPUT);
+   //pinMode(LED_RED_POWER,OUTPUT);
    digitalWrite(LED_RED_POWER,0);
  _RGB_WS2812.clear();
 }
